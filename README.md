@@ -1,1 +1,1 @@
-# Extended-Kalman-Filter-for-GPS-IMU-sensor-fus-on
+# Extended-Kalman-Filter-for-GPS-IMU-sensor-fusion
