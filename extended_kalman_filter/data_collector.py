@@ -35,8 +35,6 @@ class Ndt():
 
         self.odomTwistCovariance = data.twist.covariance
 
-        print(self.odomLinVelX)
-
     def imucallBack(self, data):
 
         self.imu_pub.publish(data)
