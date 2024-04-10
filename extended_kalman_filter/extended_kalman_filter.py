@@ -53,14 +53,14 @@ class Ekf():
         self.Pos = data.pose.pose.position
         self.Ort = data.pose.pose.orientation
         self.LinVel = data.twist.twist.linear.x
-        print(f"callBackOdom: {self.LinVel}")
+        #print(f"callBackOdom: {self.LinVel}")
 
         return self.Pos, self.Ort, self.LinVel
 
     def callBackImu(self, data):
         self.LinAcc = data.linear_acceleration
         self.YawRate = data.angular_velocity.z
-        print(f"callBackImu: {self.LinAcc}")
+        #print(f"callBackImu: {self.LinAcc}")
 
         return self.YawRate
 
