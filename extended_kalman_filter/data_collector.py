@@ -56,7 +56,7 @@ class Ndt():
         self.imuLinAccY = data.linear_acceleration.y
         self.imuLinAccZ = data.linear_acceleration.z
 
-        self.imuLinVelCovariance = data.linear_acceleration_covariance
+        self.imuLinAccCovariance = data.linear_acceleration_covariance
 
 if __name__ == '__main__':
     rospy.init_node("Collector")
