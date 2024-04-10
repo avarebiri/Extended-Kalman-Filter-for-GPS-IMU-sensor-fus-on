@@ -54,9 +54,9 @@ class Ndt():
 
         self.imuAngVelCovariance = data.angular_velocity_covariance
 
-        self.imuLinVelX = data.linear_acceleration.x
-        self.imuLinVelY = data.linear_acceleration.y
-        self.imuLinVelZ = data.linear_acceleration.z
+        self.imuLinAccX = data.linear_acceleration.x
+        self.imuLinAccY = data.linear_acceleration.y
+        self.imuLinAccZ = data.linear_acceleration.z
 
         self.imuLinVelCovariance = data.linear_acceleration_covariance
 
